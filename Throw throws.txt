@@ -1,0 +1,18 @@
+Throw throws
+
+
+try
+catch
+throw
+throws
+finally
+
+throw instance
+age=vote
+>18
+
+
+Throws- signature of a method
+
+public void method name ()throws ArithmeticException,Array
+

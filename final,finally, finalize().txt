@@ -1,0 +1,17 @@
+final,finally, finalize()
+
+
+final--
+
+finally
+{
+compulsory
+
+}
+
+finalize()
+
+
+
+
+system.gc();

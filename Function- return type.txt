@@ -1,0 +1,10 @@
+Function- return type
+
+create or replace function funname(parameterlist)
+return datatype
+is/as
+execution section
+
+
+
+

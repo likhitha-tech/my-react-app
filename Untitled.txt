@@ -1,0 +1,14 @@
+
+SQL> declare
+  2  var_row number(5);
+  3  begin
+  4  update employee set salary=salary+12000 where salary>23000;
+  5  if Sql%found
+  6  then
+  7  var_row:=sql%rowcount;
+  8  dbms_output.put_line(var_row||'updated');
+  9  elsif sql%notfound then
+ 10  dbms_output.put_line('none of salarieupdated');
+ 11  end if;
+ 12  end;
+ 13  /

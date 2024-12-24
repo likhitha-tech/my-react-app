@@ -1,0 +1,71 @@
+procedure
+
+function
+
+Cursors
+
+temporary work area
+
+
+cursor can hold more than one row;
+but it can process only one row
+
+types of cursors
+
+1.Implicit cursor
+2.Explicit cursor
+
+Implicit
+
+Explicit
+
+cursor
+
+
+Implicit cursor
+
+attributes
+
+%found-------------update emp set salary=salary+1000 where sal>7000
+if SQL%NOtFOUNd then
+dbms_output.put_line('none');
+elsif SQL%found then
+var_rows=sql%rowcount;=10
+dbms_output.put_line(var_rows||' '||updated
+
+
+%notFound
+%rowcount
+
+
+Explicit cursor
+
+declare cursor
+
+open cursor
+
+fetch data into the cursor
+close the cursor
+
+
+
+declare
+cursor stu_cur employee%rowtype
+is 
+begin
+
+open stu_cur
+
+select * from employee;
+
+db
+close stu_cur
+
+
+%found
+%notfound
+%rowcount
+%isopen
+
+
+
